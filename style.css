@@ -95,7 +95,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 3em 0 6em 0;
+  margin: 3em 0 3em 0;
 }
 
 .card p {
@@ -113,4 +113,26 @@ h2 {
   border-radius: 20px;
   width: 160px;
   height: 160px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7em 17em;
+
+}
+
+.quote em {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1F2937;
+}
+
+.quote p {
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: bolder;
+  align-self: flex-end;
 }
