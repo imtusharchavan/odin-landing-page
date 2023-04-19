@@ -161,3 +161,12 @@ strong {
 .cta .button {
   border: 2px solid #FFF;
 }
+
+footer {
+  background-color: #1F2937;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 12em;
+}
