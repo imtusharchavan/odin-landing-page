@@ -57,7 +57,7 @@ h1{
 button {
   padding: 7px 1em;
   width: 120px;
-  color: #E5E7EB;
+  color: #F9FAF8;
   background-color: #3882F6;
   border-radius: 8px;
   border: none;
@@ -135,4 +135,29 @@ h2 {
   font-size: 24px;
   font-weight: bolder;
   align-self: flex-end;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 12em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 3em;
+  width: 100%;
+  border-radius: 10px;
+}
+strong {
+  color: #FFF;
+  font-size: 24px;
+}
+
+.cta .button {
+  border: 2px solid #FFF;
 }
